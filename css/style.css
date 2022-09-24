@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container
+{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+   transform: translateY(20px);
+   padding: 1rem 2rem;
+   align-items: center;
+}
+
+.text{
+    text-align: start;
+    margin-left: 20px;
+    padding: 2rem 4rem ;
+}
+
+.text img
+{
+    width: 200px;
+
+}
+
+.text strong
+{
+    color: rgb(21, 14, 83);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.text p
+{
+    color: rgb(21, 14, 83);
+    margin: 8px;
+}
+
+.text hr
+{
+ width: 200px;
+ background-color: red;
+}
+
+.text h1
+{
+    font-size: 60px;
+    text-transform: capitalize;
+     color: rgb(21, 14, 83);
+}
+
+.text h3
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
